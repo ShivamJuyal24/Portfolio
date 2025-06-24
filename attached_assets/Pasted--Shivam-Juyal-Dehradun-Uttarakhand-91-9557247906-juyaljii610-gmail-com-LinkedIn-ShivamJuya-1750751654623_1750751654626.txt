@@ -1,0 +1,41 @@
+ Shivam Juyal
+ Dehradun, Uttarakhand
+ +91 9557247906 
+juyaljii610@gmail.com 
+LinkedIn/ShivamJuyal
+ Graphic Era Hill University
+ Bachelor of Technology in Computer Science Engineering (CGPA: 7.2/10)
+ Children’s Academy
+ Class 12, Central Board of Secondary Education (Score: 71.2%)
+ Doon International School
+ Class 10, Central Board of Secondary Education (Score: 87.3%)
+ Projects
+ August 2021– June 2025
+ Uttarakhand, India
+ April 2020– May 2021
+ Uttarakhand, India
+ April 2018– May 2019
+ Uttarakhand, India
+ AskMyPDF | Python, LangChain, Google Gemini Pro | GitHub
+ January 2023– Built a web application enabling conversational interaction with multiple PDF documents using advanced retrieval
+ techniques.– Integrated efficient text extraction and AI-powered question answering for a smooth user experience.
+ ChessHub | Node.js, Socket.IO, Chess.js, Express.js | GitHub
+ January 2024– Built a real-time, backend-powered multiplayer chess game using Node.js, Express.js, and WebSockets for seamless
+ communication.– Implemented dynamic chessboard rendering with drag-and-drop movements and logic validation using Chess.js.
+ Grocery4U | Node.js, Express.js, EJS, MongoDB, Stripe | GitHub
+ December 2024– Developed a dynamic e-commerce web application with modern UI/UX for seamless grocery shopping.– Implemented product recommendations and cart features using MongoDB, React, and Express.js, and tested RESTful
+ APIs with Postman.
+ Achievements– Achieved a highest rating of 1700+ on LeetCode, demonstrating strong problem-solving skills and proficiency in data
+ structures and algorithms.– Ranked among the top 100 in the institution on GeeksforGeeks.– Solved over 1000 programming problems across platforms.
+ Profile Links– LeetCode– GeeksforGeeks
+ Technical Skills
+ Languages: C++, Python, Java, JavaScript, SQL
+ Frameworks and Libraries: Express.js, WebSockets, Node.js, Streamlit, ReactJS
+ Back-End Development: RESTful APIs, MongoDB, Tomcat (familiar), JMS (ActiveMQ- familiar)
+ Front-End Development: HTML5, CSS3, EJS, JavaScript
+ Cloud and DevOps: AWS (familiar), Docker (familiar)
+ Operating Systems: Windows, Linux (familiar)
+ Tools and Technologies: Git, GitHub, VS Code, Postman (for API testing), NPM, Eclipse (familiar), Visual Studio
+ (familiar)
+ Other Technologies: CORBA (Orbix- familiar)
+ Certificates– React+Redux– The Beginner’s Guide (Udemy)– The Complete Web Development Course (Udemy)– Participated in CodeKaze (Coding Competition)
