@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Juyal - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-inner"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>SJ</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#achievements" class="nav-link">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Shivam Juyal</span>
+                    </h1>
+                    <p class="hero-subtitle">Full Stack Developer & Problem Solver</p>
+                    <p class="hero-description">
+                        Computer Science Engineering student passionate about building innovative web applications
+                        and solving complex problems with modern technologies.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-element" style="--delay: 0s">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="floating-element" style="--delay: 1s">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="floating-element" style="--delay: 2s">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="floating-element" style="--delay: 3s">
+                                <i class="fab fa-react"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my background and journey</p>
+            </div>
+            <div class="about-content">
+                <div class="about-info">
+                    <div class="info-card">
+                        <h3>Background</h3>
+                        <p>
+                            I'm a Computer Science Engineering student at Graphic Era Hill University with a passion
+                            for full-stack development and problem-solving. Based in Dehradun, Uttarakhand, I've been
+                            building web applications and exploring various technologies to create meaningful solutions.
+                        </p>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Dehradun, Uttarakhand</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9557247906</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>juyaljii610@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="education-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Bachelor of Technology</h4>
+                                <p class="institution">Graphic Era Hill University</p>
+                                <p class="field">Computer Science Engineering</p>
+                                <p class="grade">CGPA: 7.2/10</p>
+                                <p class="duration">August 2021 - June 2025</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Class 12</h4>
+                                <p class="institution">Children's Academy</p>
+                                <p class="field">Central Board of Secondary Education</p>
+                                <p class="grade">Score: 71.2%</p>
+                                <p class="duration">April 2020 - May 2021</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Class 10</h4>
+                                <p class="institution">Doon International School</p>
+                                <p class="field">Central Board of Secondary Education</p>
+                                <p class="grade">Score: 87.3%</p>
+                                <p class="duration">April 2018 - May 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcasing my latest work and technical expertise</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AskMyPDF</h3>
+                        <p class="project-description">
+                            Built a web application enabling conversational interaction with multiple PDF documents 
+                            using advanced retrieval techniques. Integrated efficient text extraction and AI-powered 
+                            question answering for a smooth user experience.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">LangChain</span>
+                            <span class="tech-tag">Google Gemini Pro</span>
+                        </div>
+                        <div class="project-date">January 2023</div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-chess"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ChessHub</h3>
+                        <p class="project-description">
+                            Built a real-time, backend-powered multiplayer chess game using Node.js, Express.js, 
+                            and WebSockets for seamless communication. Implemented dynamic chessboard rendering 
+                            with drag-and-drop movements and logic validation using Chess.js.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Socket.IO</span>
+                            <span class="tech-tag">Chess.js</span>
+                            <span class="tech-tag">Express.js</span>
+                        </div>
+                        <div class="project-date">January 2024</div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Grocery4U</h3>
+                        <p class="project-description">
+                            Developed a dynamic e-commerce web application with modern UI/UX for seamless grocery 
+                            shopping. Implemented product recommendations and cart features using MongoDB, React, 
+                            and Express.js, and tested RESTful APIs with Postman.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">EJS</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="project-date">December 2024</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Programming Languages
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">C++</div>
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">Java</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">SQL</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-layer-group"></i>
+                        Frameworks & Libraries
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">Express.js</div>
+                        <div class="skill-item">WebSockets</div>
+                        <div class="skill-item">Node.js</div>
+                        <div class="skill-item">Streamlit</div>
+                        <div class="skill-item">ReactJS</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-server"></i>
+                        Back-End Development
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">RESTful APIs</div>
+                        <div class="skill-item">MongoDB</div>
+                        <div class="skill-item">Tomcat</div>
+                        <div class="skill-item">JMS (ActiveMQ)</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-paint-brush"></i>
+                        Front-End Development
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">HTML5</div>
+                        <div class="skill-item">CSS3</div>
+                        <div class="skill-item">EJS</div>
+                        <div class="skill-item">JavaScript</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-cloud"></i>
+                        Cloud & DevOps
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">AWS</div>
+                        <div class="skill-item">Docker</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Tools & Technologies
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">Git</div>
+                        <div class="skill-item">GitHub</div>
+                        <div class="skill-item">VS Code</div>
+                        <div class="skill-item">Postman</div>
+                        <div class="skill-item">NPM</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Achievements</h2>
+                <p class="section-subtitle">Recognition and accomplishments in competitive programming</p>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>LeetCode Champion</h3>
+                        <p>Achieved a highest rating of 1700+ on LeetCode, demonstrating strong problem-solving skills and proficiency in data structures and algorithms.</p>
+                        <div class="achievement-links">
+                            <a href="#" class="achievement-link">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>GeeksforGeeks Top 100</h3>
+                        <p>Ranked among the top 100 in the institution on GeeksforGeeks platform, showcasing consistent performance in coding challenges.</p>
+                        <div class="achievement-links">
+                            <a href="#" class="achievement-link">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Problem Solving Expert</h3>
+                        <p>Solved over 1000 programming problems across various platforms, demonstrating dedication to continuous learning and skill improvement.</p>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Certified Developer</h3>
+                        <p>Completed certifications in React+Redux and Web Development, and participated in competitive programming contests like CodeKaze.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and discuss opportunities</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:juyaljii610@gmail.com">juyaljii610@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <a href="tel:+919557247906">+91 9557247906</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <span>Dehradun, Uttarakhand</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <h3>Connect with me</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-icon github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-icon leetcode">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <a href="#" class="social-icon email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Shivam Juyal. All rights reserved.</p>
+                <p>Built with passion and modern web technologies</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
