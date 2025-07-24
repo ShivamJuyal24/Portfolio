@@ -75,6 +75,21 @@ body {
     border: 3px solid rgba(255, 255, 255, 0.2);
     position: relative; /* Add this for positioning context */
 }
+.project-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9; /* Keeps images consistent and proportional */
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 12px 0 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* Softer, more subtle shadow */
+  transition: box-shadow 0.3s ease;
+}
+
+.project-image:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12); /* Gentle lift effect on hover */
+}
+
 
 .profile-avatar img.profile-photo {
     width: 100%;
